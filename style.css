@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0%;
+    font-family: Arial;
+}
+.pageone,.header{
+     display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.pagetwo, .pagefour{
+    background-color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.pagethree{
+    background-color: #E3E7EB;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.footer{
+    background-color: #1F2937;
+}
+/*header*/
+#logo{
+    width: 60px;
+    margin-top: 1%; 
+    margin-left: 0.5%;
+}
+.social{
+    position: absolute;
+    right: 0;
+    top: 1%;
+}
+#instagram{
+    width: 50px;
+    margin-right: 25%;
+}
+#whatsapp{
+    width: 50px;
+    margin-right: 20%;
+}
+#facebook{
+    width: 50px;
+    margin-right: 15%;
+}
+/*page one*/
+#mainText{
+    font-size: 48px;
+    font-weight:bold;
+    color: #f9faf8;
+}
+#subtext{
+    font-size: 18px;
+    color: #E3E7EB;
+}
+#singButton{
+    background-color: #3382f6;
+    margin-bottom: 50px;
+
+    width: 150px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#m8com{
+    position: absolute;
+    width: 30em;
+    height: 18em;
+    right: 15%;
+    top: 15%;
+}
+/*pagetwo*/
+#infoText{
+    text-align: center;
+    font-size: 36px;
+}
