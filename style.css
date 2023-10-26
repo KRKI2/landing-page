@@ -1,85 +1,166 @@
 body{
-    padding: 0;
-    margin: 0%;
-    font-family: Arial;
+padding: 0;
+margin: 0%;
+font-family: Arial;
 }
 .pageone,.header{
-     display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    padding-left: 15%;
-    padding-right: 15%;
+display: flex;
+flex-direction: column;
+background-color: #1F2937;
+padding-left: 15%;
+padding-right: 15%;
 }
 
 .pagetwo, .pagefour{
-    background-color: white;
-    padding-left: 15%;
-    padding-right: 15%;
+background-color: white;
+padding-left: 15%;
+padding-right: 15%;
 }
 .pagethree{
-    background-color: #E3E7EB;
-    padding-left: 15%;
-    padding-right: 15%;
+background-color: #E3E7EB;
+padding-left: 15%;
+padding-right: 15%;
 }
-.footer{
-    background-color: #1F2937;
-}
+
 /*header*/
 #logo{
-    width: 60px;
-    margin-top: 1%; 
-    margin-left: 0.5%;
+width: 60px;
+margin-top: 1%; 
+margin-left: 0.5%;
 }
 .social{
-    position: absolute;
-    right: 0;
-    top: 1%;
+position: absolute;
+right: 0;
+top: 1%;
 }
 #instagram{
-    width: 50px;
-    margin-right: 25%;
+width: 50px;
+margin-right: 25%;
 }
 #whatsapp{
-    width: 50px;
-    margin-right: 20%;
+width: 50px;
+margin-right: 20%;
 }
 #facebook{
-    width: 50px;
-    margin-right: 15%;
+width: 50px;
+margin-right: 15%;
 }
 /*page one*/
 #mainText{
-    font-size: 48px;
-    font-weight:bold;
-    color: #f9faf8;
+font-size: 48px;
+font-weight:bold;
+color: #f9faf8;
 }
 #subtext{
-    font-size: 18px;
-    color: #E3E7EB;
+font-size: 18px;
+color: #E3E7EB;
 }
 #singButton{
-    background-color: #3382f6;
-    margin-bottom: 50px;
-
-    width: 150px;
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    border: none;
-    border-radius: 10px;
+background-color: #3382f6;
+margin-bottom: 50px;
+width: 150px;
+height: 50px;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 20px;
+text-align: center;
+color: white;
+border: none;
+border-radius: 10px;
 }
 #m8com{
-    position: absolute;
-    width: 30em;
-    height: 18em;
-    right: 15%;
-    top: 15%;
+position: absolute;
+width: 30em;
+height: 18em;
+right: 15%;
+top: 15%;
 }
 /*pagetwo*/
 #infoText{
+text-align: center;
+font-size: 36px;
+}
+#flex-box{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 60px;
+margin: 20px;
+border-radius: 20%;
+}
+#m8, #m7, #m6, #m5{
+width: 150px;
+height: 150px;
+border: 3px solid #3382f6;
+border-radius: 20%;
+}
+#underText{
+margin-top: 1%;
+text-align: center;
+color: #888787;
+font-style: italic;   
+}
+/*page three*/
+#moral{
+padding-top: 60px;
+text-align: center;
+color: #888888;
+font-style: italic; 
+font-size: 36px;  
+margin-bottom: 0px;
+}
+#moralWriter{
+margin-top: 0px;
+margin-left: 50%;
+font-size: 22px;
+color: #1F2937;
+padding-bottom: 60px;
+}
+/*page four*/
+#box{
+background-color: #3382f6;
+width: 970px;
+height: 150px;
+border-radius: 20px;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+#text{
+position: absolute;
+padding-top: 35px;
+padding-left: 15px;
+margin-bottom: 0px;
+color: #E3E7EB;
+}
+#textUnder{
+position: absolute;
+padding-top: 65px;
+padding-left: 15px;
+color: #E3E7EB;
+padding-bottom: 30px;
+}
+#buttontwo{
+background-color: #3382f6;
+margin-left: 800px;
+margin-top: 65px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 20px;
+text-align: center;
+color: white;
+border: 2px solid #E3E7EB;
+border-radius: 10px;
+direction: none;
+}
+/*footer*/
+
+#footerText{
     text-align: center;
-    font-size: 36px;
+    color: #E3E7EB;
+    background-color: #1F2937;
+    margin: 0;
+    height: 50px;
+    padding-top: 2.5%;
 }
